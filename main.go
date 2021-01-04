@@ -12,14 +12,12 @@ import (
 var wg sync.WaitGroup
 
 func makeRequest(url string) {
-	var err interface{}
-
-	_, err = http.Get(url)
+	_, err := http.Get(url)
 
 	defer wg.Done()
 
 	if err != nil {
-		panic("Can't make request")
+		panic("\n Can't make request, something went wrong...")
 	}
 }
 
