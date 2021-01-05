@@ -1,4 +1,4 @@
-> time it took, just gives you the estimated response time.
+> time-it-took, simple CLI that just gives you the estimated response time.
 
 *just playing with GO.*
 
